@@ -1,15 +1,15 @@
 Server Ready
 Inside DataServer.java: upload
 ContentId and Type: youtube.com$Value of ContentId: youtube.com$2
-Value of ContentId: youtube.com$3
-Value of ContentId: youtube.com$4
-taServer.java: AppManager.setRequesterDetail
+name:statuscontentid:youtube.com$1
+Inside st.insertdata()
+Calling DataServer.java: AppManager.setRequesterDetail
 Calling status from setRequester
 table:status
 connection accepted
 Adding the connection in the schedular to the conId Id in Schedular.java
-starting the schedulars for sending and receiving in Scheduler.java
 listening in packetListener.java
+starting the schedulars for sending and receiving in Scheduler.java
 User Authentication Done userId: mycustodian
 In Reassembler.java Received the Complete File! :D :D :D :D :D :D :D :D :D :D :D :D 
 Requesting root server:rootserver
@@ -33,20 +33,4 @@ File name without extension is: youtube.com$2
 youtube.com$2 requester name is: amitd
 Calling updateState
 Active custodian is: mycustodian
-Inside DataServer.java: upload
-ContentId and Type: youtube.com$3 0
-Calling st.insertdata()
-tablename:statuscontentid:youtube.com$3
-Inside st.insertdata()
-Calling DataServer.java: AppManager.setRequesterDetail
-Calling status from setRequester
-table:status
-Inside DataServer.java: upload
-ContentId and Type: youtube.com$4 0
-Calling st.insertdata()
-tablename:statuscontentid:youtube.com$4
-Inside st.insertdata()
-Calling DataServer.java: AppManager.setRequesterDetail
-Calling status from setRequester
-table:status
 Connection is not available
