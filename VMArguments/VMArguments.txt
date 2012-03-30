@@ -1,3 +1,4 @@
+-Djava.rmi.server.codebase=file:/E:\DataServer300312.jar
 -Xms512m
 -Xmx1024m
 -XX:+UseParallelGC
