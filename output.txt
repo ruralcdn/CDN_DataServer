@@ -8,16 +8,15 @@ Calling status from setRequester
 table:status
 connection accepted
 Adding the connection in the schedular to the conId Id in Schedular.java
-listening in packetListener.java
 starting the schedulars for sending and receiving in Scheduler.java
+listening in packetListener.java
 User Authentication Done userId: mycustodian
-In Reassembler.java Received the Complete File! :D :D :D :D :D :D :D :D :D :D :D :D 
-Requesting root server:rootserver
-Upload to dataserver complete
-File name without extension is: youtube.com$1
-youtube.com$1 requester name is: amitd
-Calling updateState
-Active custodian is: mycustodian
+Connection is not available
+connection accepted
+Adding the connection in the schedular to the conId Id in Schedular.java
+User Authentication Done userId: mycustodian
+listening in packetListener.java
+Connection is not available
 Inside DataServer.java: upload
 ContentId and Type: youtube.com$2 0
 Calling st.insertdata()
@@ -26,11 +25,8 @@ Inside st.insertdata()
 Calling DataServer.java: AppManager.setRequesterDetail
 Calling status from setRequester
 table:status
-In Reassembler.java Received the Complete File! :D :D :D :D :D :D :D :D :D :D :D :D 
-Requesting root server:rootserver
-Upload to dataserver complete
-File name without extension is: youtube.com$2
-youtube.com$2 requester name is: amitd
-Calling updateState
-Active custodian is: mycustodian
+connection accepted
+Adding the connection in the schedular to the conId Id in Schedular.java
+User Authentication Done userId: mycustodian
+listening in packetListener.java
 Connection is not available
