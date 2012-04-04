@@ -78,7 +78,8 @@ public class RendezvousServer implements IRendezvous{
 	}
 
 	public static void main(String args[])
- {	
+	{	
+		System.out.println("Looking for Rendezvous Service");
 		try {
 
 			File configFile = new File("config/Rendezvous.cfg");
@@ -110,11 +111,11 @@ public class RendezvousServer implements IRendezvous{
 				catch(ConnectException ex)
 				{
 					Runtime.getRuntime().exec("C:\\Program Files\\Java\\jdk1.7.0_01\\bin\\rmiregistry.exe");
-					
+
 				}
 			}
 
-			System.err.println("Server ready");
+			System.err.println("Services ready");
 
 		} catch (Exception e) {
 			System.err.println("Server exception: " + e.toString());
